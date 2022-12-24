@@ -1,9 +1,11 @@
 <script setup>
+import TrafficLight from './components/TrafficLight.vue';
 
 </script>
 
 <template>
     <main>
+        <TrafficLight />
     </main>
 </template>
 
