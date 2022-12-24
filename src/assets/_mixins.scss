@@ -1,0 +1,5 @@
+@mixin pulse-shadow__animation($color) {
+    color: $color;
+    box-shadow: 0 0 10px 0 $color;
+    animation: pulse-shadow 2.5s infinite;
+}

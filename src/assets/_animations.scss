@@ -1,0 +1,13 @@
+@keyframes pulse-shadow {
+    0% {
+        box-shadow: 0 0 10px 0 currentColor;
+    }
+
+    50% {
+        box-shadow: 0 0 10px 2px currentColor;
+    }
+
+    100% {
+        box-shadow: 0 0 10px 0 currentColor;
+    }
+}
